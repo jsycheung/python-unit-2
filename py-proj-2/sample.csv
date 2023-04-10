@@ -1,0 +1,5 @@
+size,name,price,flavor,frosting,sprinkles,filling
+regular,Stars and Stripes,2.99,Vanilla,Chocolate,"['Red', 'White', 'Blue']",Vanilla
+mini,Oreo,0.99,Chocolate,Cookies and Cream,['Oreo pieces'],
+large,Red Velvet,3.99,Red Velvet,,[],Cream Cheese
+mini,Coconut,3.99,Vanilla,Coconut,[],

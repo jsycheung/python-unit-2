@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>Your order:</h1>
+{% for cupcake in cupcakes %}
+<h3>{{cupcake["name"]}}</h3>
+<h4>Flavor: {{cupcake["flavor"]}}</h4>
+<h4>Frosting: {{cupcake["frosting"]}}</h4>
+<h4><b>Price: {{cupcake["price"]}}</b></h4>
+<a href="{{url_for('delete_cupcake', name=cupcake['name'])}}">delete order</a>
+{% endfor %}
+{% endblock %}
